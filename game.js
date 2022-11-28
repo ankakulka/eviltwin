@@ -12,6 +12,8 @@ var won = false;
 var currentScore = 0;
 var winningScore = 100;
 
+
+
 console.log("Im game");
 
 // add birds 
@@ -21,10 +23,10 @@ function addItems() {
     // createItem(780,180, 'smarty' ); 
     // createItem(870, 365,'beaker');
     // createItem(285, 365, 'beaker');
-    createItem(380, 180, 'ditsy');
-    createItem(40, 40, 'ditsy');
-    createItem(740, 20, 'ditsy');
-    createItem(1090, 75, 'ditsy');
+    createItem(200, 250, 'ditsy');
+    // createItem(40, 40, 'ditsy');
+    // createItem(740, 20, 'ditsy');
+    // createItem(1090, 75, 'ditsy');
     // createItem(1005, 100, 'baldie');  
     // createItem(510,280, 'baldie');    
 }
@@ -192,7 +194,7 @@ window.onload = function () {
      //Evil movement
      var random =  game.rnd.integerInRange(100, 300);   
      
-      game.physics.arcade.collide(evil, chimneys);
+     game.physics.arcade.collide(evil, chimneys);
      game.physics.arcade.overlap(evil, birds, itemHandler);
      game.physics.arcade.overlap(evil, badges, badgeHandler);
      evil.body.velocity.x = 0;
