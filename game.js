@@ -192,7 +192,7 @@ window.onload = function () {
      //Evil movement
      var random =  game.rnd.integerInRange(100, 300);   
      
-      game.physics.arcade.collide(evil, chimneys);
+     game.physics.arcade.collide(evil, chimneys);
      game.physics.arcade.overlap(evil, birds, itemHandler);
      game.physics.arcade.overlap(evil, badges, badgeHandler);
      evil.body.velocity.x = 0;
