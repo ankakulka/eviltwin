@@ -23,7 +23,7 @@ function addItems() {
     // createItem(780,180, 'smarty' ); 
     // createItem(870, 365,'beaker');
     // createItem(285, 365, 'beaker');
-    createItem(200, 250, 'ditsy');
+    createItem(20, 25, 'ditsy');
     // createItem(40, 40, 'ditsy');
     // createItem(740, 20, 'ditsy');
     // createItem(1090, 75, 'ditsy');
