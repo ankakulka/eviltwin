@@ -24,7 +24,7 @@ function addItems() {
     // createItem(870, 365,'beaker');
     // createItem(285, 365, 'beaker');
     createItem(20, 25, 'ditsy');
-    // createItem(40, 40, 'ditsy');
+    createItem(40, 45, 'ditsy');
     // createItem(740, 20, 'ditsy');
     // createItem(1090, 75, 'ditsy');
     // createItem(1005, 100, 'baldie');  
