@@ -102,7 +102,7 @@ window.onload = function () {
     game.load.spritesheet('evil', 'img/blackCat.png', 100, 65);
       
     //add birds sprites
-    game.load.spritesheet('ditsy', 'img/sprites/ditsy.png', 50, 63);
+    game.load.spritesheet('ditsy', 'img/sprites/ditsy.png', 200, 250);
     // game.load.spritesheet('baldie', 'img/sprites/baldie.png', 60, 60);
     // game.load.spritesheet('smarty','img/sprites/smarty_pants.png',80, 63);
     // game.load.spritesheet('beaker','img/sprites/beaker.png', 82, 60);
