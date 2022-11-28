@@ -23,12 +23,11 @@ function addItems() {
     // createItem(780,180, 'smarty' ); 
     // createItem(870, 365,'beaker');
     // createItem(285, 365, 'beaker');
-    createItem(20, 25, 'ditsy');
-    createItem(300, 100, 'ditsy');
-    // createItem(740, 20, 'ditsy');
-    createItem(800, 75, 'ditsy');
-    // createItem(1005, 100, 'baldie');  
-    // createItem(510,280, 'baldie');    
+    createItem(194,518,'ditsy');
+    createItem(294,418,'ditsy');
+    createItem(374,268,'ditsy');
+    createItem(510,330,'ditsy');
+   
 }
 
 // add chimneys
