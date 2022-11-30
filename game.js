@@ -19,10 +19,10 @@ console.log("Im game");
 // add birds 
 function addItems() {
   birds = game.add.physicsGroup();
-    // createItem(120,60, 'smarty' );
-    // createItem(780,180, 'smarty' ); 
-    // createItem(870, 365,'beaker');
-    // createItem(285, 365, 'beaker');
+    createItem(120,60,'ditsy');
+    createItem(780,180,'ditsy'); 
+    createItem(870, 365,'ditsy');
+    createItem(285, 365,'ditsy');
     createItem(194,458,'ditsy');
     createItem(294,378,'ditsy');
     createItem(374,228,'ditsy');
